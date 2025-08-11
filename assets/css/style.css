@@ -53,14 +53,12 @@ button {
     font-size: 20px;
     font-weight: 600;
     transition: background-color 0.3s ease;
+    outline: none;
 }
+
 button:hover {
     background-color: #0056b3;
 }
-
-/* input[type="number"] {
-    -moz-appearance: textfield;
-} */
 
 input:focus {
     border-color: #007bff;
